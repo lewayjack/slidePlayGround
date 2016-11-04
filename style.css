@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    border: 0;
+}
 #slideshow-box1 {
     width: 480px;
     margin: auto;
@@ -23,6 +27,39 @@
 
 #slideshow-box1 figure:nth-child(3) {
   animation: xfade 9s 6s infinite;
+}
+
+.fixed-bg {
+    padding: 50px;
+
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background:url(https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg) no-repeat center center fixed;
+    -webkit-background-size: ;
+    background-size: cover;
+}
+
+.fixed-bg2 {
+    padding: 50px;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    text-align: center;
+    background:url(https://41.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.fixed-bg3 {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background: url(http://ife.baidu.com/static/img/erik_ce204002.jpg) ;
+    background-repeat: no-repeat;
+}
+.transparent-bg{
+    background: transparent;
 }
 
 @keyframes xfade{
